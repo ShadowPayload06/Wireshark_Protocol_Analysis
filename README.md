@@ -17,15 +17,15 @@ This task documents the process of capturing and analyzing network traffic using
 
 | Protocol | Filter Used | Screenshot | Notes File |
 |----------|-------------|------------|------------|
-| DNS      | `dns`       | `dns_filter_view.png` | `dns_filter_notes.txt` |
-| TCP      | `tcp`       | `tcp_filter_view.png` | `tcp_filter_notes.txt` |
-| TLS      | `tls`       | `tls_filter_view.png` | `tls_filter_notes.txt` |
+| DNS      | `dns`       | `dns_filter_view.png` | `dns_filter.txt` |
+| TCP      | `tcp`       | `tcp_filter_view.png` | `tcp_filter.txt` |
+| TLS      | `tls`       | `tls_filter_view.png` | `tls_filter.txt` |
 
 > Note: HTTP was not observed during this session. All IP addresses have been redacted for privacy.
 
 
 📑 Documentation Files
-- `generate_traffic_notes.txt`: Describes how traffic was generated
+- `generate_traffic.txt`: Describes how traffic was generated
 - `summary_of_findings.txt`: Summarizes protocol behavior and packet insights
 - Individual `.txt` files for each protocol with packet-level observations
 
