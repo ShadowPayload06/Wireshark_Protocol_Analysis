@@ -12,6 +12,7 @@ Packet details:
 Protocol stack: Ethernet II → IPv4 → TCP → TLS  
 
 IP addresses have been redacted for privacy.  
-Refer to screenshot: tls_filter_view.png  
+Refer to screenshot: tls_filter.png  
+
 
 This confirms secure, encrypted traffic during the capture session.
