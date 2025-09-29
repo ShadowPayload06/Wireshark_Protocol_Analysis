@@ -1,0 +1,13 @@
+Protocol: TCP  
+Filter Used: tcp  
+
+Captured TCP handshake and termination packets.  
+Flags observed: SYN, ACK, FIN  
+Multiple client-server connections were established and closed.  
+
+Protocol stack: Ethernet II → IPv4 → TCP  
+
+IP addresses have been redacted for privacy.  
+Refer to screenshot: tcp_filter_view.png  
+
+This confirms TCP session establishment and teardown during the capture session.

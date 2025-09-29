@@ -1,0 +1,17 @@
+Protocol: TLS  
+Filter Used: tls  
+
+Captured encrypted communication using TLSv1.3 protocol.  
+TLS handshake and encrypted application data packets were observed.  
+
+Packet details:
+- Content Type: Application Data (23)
+- TLS Version: 1.2 (0x0303)
+- Encrypted Application Data: 1301 bytes  
+
+Protocol stack: Ethernet II → IPv4 → TCP → TLS  
+
+IP addresses have been redacted for privacy.  
+Refer to screenshot: tls_filter_view.png  
+
+This confirms secure, encrypted traffic during the capture session.

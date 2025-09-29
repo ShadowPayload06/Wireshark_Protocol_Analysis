@@ -1,0 +1,10 @@
+Wireshark Installation Setup (Kali Linux Purple)
+
+Step 1: Update Package List
+sudo apt update
+
+Step 2: Install Wireshark
+sudo apt install wireshark -y
+
+Step 3: Launch Wireshark
+Using GUI Launcher from Applications menu

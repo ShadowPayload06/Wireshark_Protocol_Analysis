@@ -1,0 +1,36 @@
+Analyze captured packets and identify key protocols
+
+Capture File: wireshark_capture_day5_task5.pcap  
+Total Packets Captured: 622  
+Protocols Filtered: HTTP, DNS, TCP, TLS  
+
+Summary of Findings:
+
+1. HTTP Traffic:
+   - Observed HTTP GET request to a web server.
+   - Request path: /access/scraping?hl=en
+   - Headers included: User-Agent, Accept
+   - Indicates active web browsing or automated scraping.
+
+2. DNS Traffic:
+   - DNS queries sent to public DNS servers.
+   - Domain resolution attempts observed.
+   - Confirms hostname-to-IP resolution activity.
+
+3. TCP Traffic:
+   - TCP handshake and termination packets captured.
+   - SYN, ACK, FIN flags confirm session lifecycle.
+   - Multiple client-server connections established.
+
+4. TLS Traffic:
+   - Encrypted communication using TLSv1.3.
+   - Handshake and application data packets observed.
+   - Confirms secure HTTPS traffic during session.
+
+Privacy Notes:
+- All IP addresses have been redacted.
+- Screenshots of filtered views are included for each protocol.
+
+Conclusion:
+The capture confirms typical client-server communication involving web browsing, DNS resolution, encrypted HTTPS sessions, and TCP session management. 
+Each protocol was successfully filtered and documented with screenshots and summaries.

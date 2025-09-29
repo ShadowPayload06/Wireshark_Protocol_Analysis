@@ -1,0 +1,21 @@
+Generate Network Traffic for Packet Capture
+
+Objective:
+To simulate real-world network activity and capture packets using Wireshark.
+
+Action Performed:
+- Opened Firefox browser in Kali VM.
+- Visited the following URL:
+  https://www.kernel.org/
+
+Protocols Triggered:
+- DNS (domain resolution for www.kernel.org)
+- TLS (encrypted HTTPS session)
+- TCP (connection setup and teardown)
+
+Wireshark was actively capturing during this session.
+Screenshots were taken directly from the full packet list view.
+No display filters were applied during capture or screenshot.
+IP addresses are visible in the screenshots for technical clarity.
+
+This confirms successful traffic generation and packet capture for analysis.

@@ -1,0 +1,11 @@
+Protocol: DNS  
+Filter Used: dns  
+
+Captured DNS queries from local client to public DNS servers.  
+Protocol stack: Ethernet II → IPv4 → UDP → DNS  
+
+Queries include domain resolution attempts for various hostnames.  
+IP addresses have been redacted for privacy.  
+Refer to screenshot: dns_filter_view.png  
+
+This confirms DNS resolution activity during the capture session.

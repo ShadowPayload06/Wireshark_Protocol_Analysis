@@ -1,0 +1,15 @@
+Protocol: HTTP  
+Filter Used: http  
+
+Captured HTTP GET request from client to server.  
+Request path: /access/scraping?hl=en  
+Protocol stack: Ethernet II → IPv4 → TCP → HTTP  
+
+Headers included:
+- User-Agent: Mozilla/5.0  
+- Accept: text/html 
+
+IP addresses have been redacted for privacy.  
+Refer to screenshot: http_filter_view.png  
+
+This confirms active HTTP traffic during the capture session.
