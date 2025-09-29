@@ -10,7 +10,8 @@ Headers included:
 - Accept: text/html 
 
 IP addresses have been redacted for privacy.  
-Refer to screenshot: http_filter.png  
+Refer to screenshot: http_filter_view.png  
 
 
 This confirms active HTTP traffic during the capture session.
+
